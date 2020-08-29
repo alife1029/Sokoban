@@ -3,8 +3,8 @@ import json
 import threading
 
 from tkinter import *
-from lib.database import Database
-from lib.pynput.keyboard import Listener, Key
+from database import Database
+from pynput.keyboard import Listener, Key
 
 # Bazı oyun sabitleri
 PENCERE_GENISLIGI = 576
